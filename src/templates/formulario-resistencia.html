@@ -7,6 +7,67 @@
   <title>Document</title>
 </head>
 <body>
-
+  <div class="container">
+    <script type="text/javascript">var submitted=false;</script>
+    <form
+      class="row g-3"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOgmVLsLJ2pCVtHCCvl4m7LWApQcHT_v0IdwbqklW0GIpKaA/formResponse"
+      method="POST"
+      target="hidden_iframe"
+      onsubmit="submitted=true;"
+    >
+      <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display: none"
+        onload="if(submitted) {window.location='templates/retirar-entrada.html';}"
+      ></iframe>
+      <div class="col-md-6">
+        <label for="inputNombre" class="form-label">Nombre</label>
+        <input
+          type="text"
+          name="entry.2092238618"
+          class="form-control"
+          id="inputNombre"
+          placeholder="Ingrese su Nombre"
+          required
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputApellido" class="form-label">Apellido</label>
+        <input
+          type="text"
+          name="entry.1840987665"
+          class="form-control"
+          id="inputApellido"
+          placeholder="Ingrese su Apellido"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputDni" class="form-label">DNI</label>
+        <input
+          type="number"
+          name="entry.1995307545"
+          class="form-control"
+          id="inputDni"
+          placeholder="Ingrese su DNI"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputCorreo" class="form-label">Correo Electronico</label>
+        <input
+          type="email"
+          name="entry.508728000"
+          class="form-control"
+          id="inputCorreo"
+          placeholder="Ingrese su Correo Electronico"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
