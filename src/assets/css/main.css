@@ -1,5 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 
 p{
@@ -12,68 +17,108 @@ header{
     background-color: #14081F;
 }
 
-h1{
+body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    background-color: #E6E6E6;
 }
+
+.main-cointainer, .retirar-container {
+    height: 500px;
+}
+
+.card-blue {
+    background-color: #11103C;
+}
+
 div{
     font-family: 'Montserrat', sans-serif;
-}
-.body{
-    background-color: #E6E6E6;
-    height: 700px;
-}
-.row-1-main, .row-3-main{
-    height: 30%;
-}
-.row-2-main{
-    height: 40%;
-} 
-
-.button-reserv{
-    width: 80%;
-    height: 70%;
-    background-color: #11103C;
-    border: 4px solid #00B2EB;
-}
-
-.button-reserv:hover{
-    transform: translateY(-10px);
 }
 
 .text-button-1{
     height: 35%;
     color: #00B2EB;
-    
+
     font-weight: bold;
 }
 .text-button-2{
     height: 30%;
     color: white;
-    
+
 }
 .text-button-3{
     height: 35%;
     color: #FF5BAB;
-    
+
 }
+
+.reservar-button {
+    background-color: #00B2EB;
+    color: #11103C;
+    border-radius: 5px;
+}
+.reservar-button:hover {
+    background-color: #04a4da;
+}
+
+.reservar-button a {
+    color: #11103C;
+}
+
 .footer-main{
     background-color: #151038;
-    height: 200px;
-    
+    width: 100%;
+}
+
+.img-footer {
+    height: 4rem;
+    width: auto;
 }
 
 .cupos-agotados{
     color: #FF5BAB;
-    
+
 }
 .texto{
     font-size: 25px;
-    
+
 }
 .boton{
-    background-color: #00B2EB;
+    background-color: #38DAFF;
     color: #11103C;
     font-weight: bold;
     border-radius: 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.btn-submit {
+    background-color: #38DAFF;
+}
+
+.form-height {
+    height: 500px;
+}
+
+.h2-aceptada {
+    color: #FF5BAB;
+}
+
+.retirar {
+    background-color: #fccb37;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-footer {
+        height: 3rem;
+        width: auto;
+    }
 }

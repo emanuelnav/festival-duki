@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <title>Festival Chaco Joven</title>
 </head>
 <body>
-  <div class="container">
+  <header>
+    <img class="img-fluid" src="/src/assets/img/banner-resistencia.png" alt="">
+  </header>
+
+  <div class="container my-4 form-height">
     <script type="text/javascript">var submitted=false;</script>
     <form
-      class="row g-3"
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOgmVLsLJ2pCVtHCCvl4m7LWApQcHT_v0IdwbqklW0GIpKaA/formResponse"
+      class="row g-3 mx-4 mx-md-0"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfeYABSL2KmWkSuWSYoP0ZQTve9R3lVzN1NXXMgx9RFCOjSCw/formResponse"
       method="POST"
       target="hidden_iframe"
       onsubmit="submitted=true;"
@@ -20,24 +26,24 @@
         name="hidden_iframe"
         id="hidden_iframe"
         style="display: none"
-        onload="if(submitted) {window.location='templates/retirar-entrada.html';}"
+        onload="if(submitted) {window.location='retirar-entrada.html';}"
       ></iframe>
-      <div class="col-md-6">
+      <div class="col-12 col-md-6">
         <label for="inputNombre" class="form-label">Nombre</label>
         <input
           type="text"
-          name="entry.2092238618"
+          name="entry.1538278028"
           class="form-control"
           id="inputNombre"
           placeholder="Ingrese su Nombre"
           required
         />
       </div>
-      <div class="col-md-6">
+      <div class="col-12 col-md-6">
         <label for="inputApellido" class="form-label">Apellido</label>
         <input
           type="text"
-          name="entry.1840987665"
+          name="entry.1835587137"
           class="form-control"
           id="inputApellido"
           placeholder="Ingrese su Apellido"
@@ -48,7 +54,7 @@
         <label for="inputDni" class="form-label">DNI</label>
         <input
           type="number"
-          name="entry.1995307545"
+          name="entry.2044966788"
           class="form-control"
           id="inputDni"
           placeholder="Ingrese su DNI"
@@ -59,15 +65,36 @@
         <label for="inputCorreo" class="form-label">Correo Electronico</label>
         <input
           type="email"
-          name="entry.508728000"
+          name="entry.708497612"
           class="form-control"
           id="inputCorreo"
           placeholder="Ingrese su Correo Electronico"
           required
         />
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="row justify-content-center pt-3">
+        <button type="submit" class="btn btn-submit col-4 col-md-3">ENVIAR</button>
+      </div>
     </form>
   </div>
+
+  <footer class="footer-main">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-around">
+        <div class="my-2">
+          <img class="img-footer img-center" src="/src/assets/img/CHACO JOVEN en blanco.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/NBCH.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/LOTERIA.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/ECOM.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

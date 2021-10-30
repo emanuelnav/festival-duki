@@ -4,9 +4,97 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <title>Festival Chaco Joven</title>
 </head>
 <body>
+  <header>
+    <img class="img-fluid" src="/src/assets/img/banner-resistencia.png" alt="">
+  </header>
 
+  <div class="container my-4 form-height">
+    <script type="text/javascript">var submitted=false;</script>
+    <form
+      class="row g-3 mx-4 mx-md-0"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc6eE5V_9yPxWN7sqo0_eTjJIkPKD4p0sDJOiC0jmyVLd2m2w/formResponse"
+      method="POST"
+      target="hidden_iframe"
+      onsubmit="submitted=true;"
+    >
+      <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display: none"
+        onload="if(submitted) {window.location='retirar-entrada.html';}"
+      ></iframe>
+      <div class="col-12 col-md-6">
+        <label for="inputNombre" class="form-label">Nombre</label>
+        <input
+          type="text"
+          name="entry.1441435915"
+          class="form-control"
+          id="inputNombre"
+          placeholder="Ingrese su Nombre"
+          required
+        />
+      </div>
+      <div class="col-12 col-md-6">
+        <label for="inputApellido" class="form-label">Apellido</label>
+        <input
+          type="text"
+          name="entry.417202639"
+          class="form-control"
+          id="inputApellido"
+          placeholder="Ingrese su Apellido"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputDni" class="form-label">DNI</label>
+        <input
+          type="number"
+          name="entry.252552521"
+          class="form-control"
+          id="inputDni"
+          placeholder="Ingrese su DNI"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputCorreo" class="form-label">Correo Electronico</label>
+        <input
+          type="email"
+          name="entry.1155775990"
+          class="form-control"
+          id="inputCorreo"
+          placeholder="Ingrese su Correo Electronico"
+          required
+        />
+      </div>
+      <div class="row justify-content-center pt-3">
+        <button type="submit" class="btn btn-submit col-4 col-md-3">ENVIAR</button>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer-main">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-around">
+        <div class="my-2">
+          <img class="img-footer img-center" src="/src/assets/img/CHACO JOVEN en blanco.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/NBCH.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/LOTERIA.png" alt="">
+        </div>
+        <div class="my-2">
+          <img class="img-footer" src="/src/assets/img/ECOM.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
