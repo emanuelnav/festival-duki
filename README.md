@@ -13,7 +13,7 @@ A webpage where you were able to book a ticket for the concert of the artist [Du
 
 See the [Demo](https://emanuelnav.github.io/formulario-show/ "Demo")
 
-[![Example](festival "festival")](https://imgur.com/oEwbXnq "ass")
+![](https://i.imgur.com/oEwbXnq.png)
 
 ## Project Setup
 
