@@ -11,7 +11,7 @@ A webpage where you were able to book a ticket for the concert of the artist [Du
 - Bootstrap
 - Google Forms and Sheets (for the DB)
 
-See the [Demo](https://emanuelnav.github.io/formulario-show/ "Demo")
+See the [Demo](https://emanuelnav.github.io/festival-duki/ "Demo")
 
 ![](https://i.imgur.com/oEwbXnq.png)
 
