@@ -9,7 +9,7 @@ A webpage where you were able to book a ticket for the concert of the artist [Du
 - HTML / CSS
 - JavaScript
 - Bootstrap
-- Google Forms and Sheets (for the DB)
+- Google Forms and Sheets (to storage the data)
 
 See the [Demo](https://emanuelnav.github.io/festival-duki/ "Demo")
 
