@@ -2,7 +2,7 @@
 
 This project was made for the "Festival Chaco Joven".
 
-A webpage where you were able to book a ticket for the concert of the artist [Duki](https://www.instagram.com/dukissj).
+A webpage where you were able to book a ticket for the concert of the artist [Duki](https://www.instagram.com/duki).
 
 **Technologies used:**
 
